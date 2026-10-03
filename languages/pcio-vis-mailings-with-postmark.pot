@@ -1,0 +1,81 @@
+# Copyright (C) 2026 PCIO
+# This file is distributed under the GPL2 license.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PCIO VIS Mailings with Postmark 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.pcio.dk/\n"
+"POT-Creation-Date: 2026-07-20 17:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: PCIO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: pcio-vis-mailings-with-postmark\n"
+"X-Generator: Poedit 3.9\n"
+
+#: pcio-vis-postmark.php:51 pcio-vis-postmark.php:52
+msgid "Postmark"
+msgstr ""
+
+#: pcio-vis-postmark.php:65
+msgid "Insufficient permissions."
+msgstr ""
+
+#: pcio-vis-postmark.php:78
+msgid "Postmark settings saved."
+msgstr ""
+
+#: pcio-vis-postmark.php:85
+msgid "Vis — Postmark Settings"
+msgstr ""
+
+#: pcio-vis-postmark.php:88
+msgid "Used for bulk-sending mails to all members via the Postmark API. When these settings are blank the Mails page falls back to the standard WordPress mailer (wp_mail)."
+msgstr ""
+
+#. translators: %s: postmarkapp.com URL
+#: pcio-vis-postmark.php:92
+msgid "Get your server API token from %s."
+msgstr ""
+
+#: pcio-vis-postmark.php:101
+msgid "Server API Token"
+msgstr ""
+
+#: pcio-vis-postmark.php:107
+msgid "Stored in the database. Never share this token."
+msgstr ""
+
+#: pcio-vis-postmark.php:113
+msgid "From Email"
+msgstr ""
+
+#: pcio-vis-postmark.php:122
+msgid "Must be a verified sender address in your Postmark account."
+msgstr ""
+
+#: pcio-vis-postmark.php:128
+msgid "From Name"
+msgstr ""
+
+#: pcio-vis-postmark.php:135
+msgid "Organisation name"
+msgstr ""
+
+#: pcio-vis-postmark.php:141
+msgid "Save Postmark settings"
+msgstr ""
+
+#: pcio-vis-postmark.php:145
+msgid "Current status"
+msgstr ""
+
+#: pcio-vis-postmark.php:149
+msgid "Postmark is configured. Mails will be sent via the Postmark API."
+msgstr ""
+
+#: pcio-vis-postmark.php:155
+msgid "Postmark is not fully configured. Mails will fall back to wp_mail()."
+msgstr ""
