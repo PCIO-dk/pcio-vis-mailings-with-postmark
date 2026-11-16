@@ -3,7 +3,7 @@
 Plugin Name:  PCIO VIS Mailings with Postmark
 Plugin URI:   https://www.pcio.dk/
 Description:  Adds Postmark bulk-mail sending to PCIO VIS Member Event. When active, the Mails page sends via the Postmark API. When inactive, PCIO VIS Member Event falls back to wp_mail().
-Version:      1.0.0
+Version:      1.1.0
 Author:       PCIO
 Author URI:   https://www.pcio.dk
 Requires at least: 6.2
@@ -39,7 +39,7 @@ class PCIO_VIS_Postmark {
             'pcio-me-settings',
             __( 'Postmark', 'pcio-vis-mailings-with-postmark' ),
             __( 'Postmark', 'pcio-vis-mailings-with-postmark' ),
-            'manage_options',
+            'vis_manage_settings',
             'pcio-me-pm-settings',
             [ __CLASS__, 'render_settings_page' ]
         );
@@ -48,7 +48,7 @@ class PCIO_VIS_Postmark {
     // ── Settings page ─────────────────────────────────────────────
 
     public static function render_settings_page(): void {
-        if ( ! current_user_can( 'manage_options' ) ) {
+        if ( ! current_user_can( 'vis_manage_settings' ) ) {
             wp_die( esc_html__( 'Insufficient permissions.', 'pcio-vis-mailings-with-postmark' ) );
         }
 

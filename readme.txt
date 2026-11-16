@@ -5,10 +5,10 @@ Author URI:        https://www.pcio.dk
 Plugin URI:        https://www.pcio.dk/vis-plugins
 Tags:              email, postmark, newsletter, mail, bulk mail
 Requires at least: 6.2
-Tested up to:      7.0
+Tested up to:      7.1
 Requires PHP:      8.1
 Requires Plugins:  pcio-vis-member-event
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ Because member email addresses and message content are transmitted to a third pa
 1. In the WordPress Admin page you can specify the Postmark account information
 
 == Changelog ==
+
+= 1.1.0 =
+* Security update
 
 = 1.0.0 =
 * Initial release.
